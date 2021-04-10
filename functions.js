@@ -50,5 +50,5 @@ function getDetails (inforObject){
     return inforObject
 }
 
-const givenDetails = getDetails({firstName: "Jan", secondName: "Peters"})
+const givenDetails = getDetails({firstName: "Jan", secondName: "klaasen"})
 console.log(givenDetails)

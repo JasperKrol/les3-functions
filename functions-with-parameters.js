@@ -92,5 +92,5 @@ function createDetailString (object) {
   return "Het beroep van " + object.firstName + " " + object.lastName + " is " + object.profession;
 }
 
-const detailString = createDetailString({ firstName: 'Jan', lastName: 'Jansen', profession: 'docent'})
+const detailString = createDetailString({ firstName: 'Peter', lastName: 'Jansen', profession: 'docent'})
 console.log(detailString);
